@@ -1,0 +1,5 @@
+이미지셋 leveldb타입으로 변경하는 명령어
+convert_imageset.exe -shuffle -backend="leveldb" -resize_height=256 -resize_width=256 C:/ train.txt TrainDB
+
+이미지 트레이닝 방법
+caffe.exe train -solver C:\Users\CVIP\Desktop\SeniorProject\VGG16\solver.prototxt -weights C:\Users\CVIP\Desktop\SeniorProject\VGG16\VGG_16.caffemodel -gpu=0
