@@ -5,10 +5,10 @@ set -e
 
 EXAMPLE=examples/imagenet
 DATA=data/ilsvrc12
-TOOLS=build/tools
+TOOLS=C:\Users\CVIP\Desktop\SeniorProject\caffe-master\Build\x64\Release
 
-TRAIN_DATA_ROOT=/path/to/imagenet/train/
-VAL_DATA_ROOT=/path/to/imagenet/val/
+TRAIN_DATA_ROOT=./train/
+VAL_DATA_ROOT=./val/
 
 # Set RESIZE=true to resize the images to 256x256. Leave as false if images have
 # already been resized using another tool.
